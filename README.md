@@ -1,4 +1,3 @@
-# aws-ec2-monitoring-autorecovery
 # AWS EC2 Monitoring & Auto-Recovery System
 
 ## 🧩 概要
