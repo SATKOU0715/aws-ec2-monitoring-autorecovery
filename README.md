@@ -1,1 +1,28 @@
 # aws-ec2-monitoring-autorecovery
+# AWS EC2 Monitoring & Auto-Recovery System
+
+## 🧩 概要
+AWS上で稼働するEC2インスタンスの監視・アラート通知・自動復旧・自動バックアップを行うシステムです。  
+工場システムの保守経験をもとに、異常検知から復旧までを自動化することを目的としています。
+
+## 🎯 目的
+- サーバーダウンなどの障害を自動検知し、メール通知を行う
+- Webサービス停止を自動復旧する
+- 定期バックアップ（EBSスナップショット）を自動化
+- AWS運用スキル（CloudWatch, Lambda, EventBridge, SNS）の実践
+
+## ⚙️ 使用予定技術
+- EC2（監視対象）
+- CloudWatch（メトリクス監視・アラート・ダッシュボード）
+- SNS（通知）
+- Lambda（自動復旧・バックアップ）
+- EventBridge（定期実行）
+- SSM（サービス再起動コマンド発行・任意）
+
+## 📅 今後の進行予定
+1. 監視対象のEC2選定・構成図作成
+2. CloudWatch Agent導入
+3. ダッシュボード・アラート作成
+4. Lambdaによる自動復旧
+5. Lambdaによる自動バックアップ
+6. README整備・記事化
